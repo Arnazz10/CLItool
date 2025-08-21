@@ -1,7 +1,7 @@
 # 🖥️ System Resource Monitor CLI (Java + OSHI)
 
 A **cross-platform terminal monitor** for system resources built with **Java 17** and [OSHI](https://github.com/oshi/oshi).  
-Tested on **Linux Mint**, works on Windows, macOS, and other Unix systems.  
+Tested on **Linux Mint**, works on Windows, macOS, and other Unix systems in it
 
 ---
 
