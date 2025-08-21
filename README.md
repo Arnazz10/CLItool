@@ -1,23 +1,39 @@
-System Resource Monitor CLI (Java + OSHI)
+# 🖥️ System Resource Monitor CLI (Java + OSHI)
 
-A cross-platform terminal monitor for system resources built with Java 17 and OSHI. Tested on Linux Mint.
+A **cross-platform terminal monitor** for system resources built with **Java 17** and [OSHI](https://github.com/oshi/oshi).  
+Tested on **Linux Mint**, works on Windows, macOS, and other Unix systems.  
 
-Features
-- CPU usage: per-core and average
-- Memory usage: used vs total
-- Disk usage: per mounted drive
-- Top 5 processes by CPU
-- Refreshes every 2 seconds, clears screen in-place
-- Press `q` to quit
+---
 
-Requirements
-- Java 17+
-- Maven 3.8+
+## ✨ Features
+- 📊 **CPU Usage**: per-core and average (with visual bars)  
+- 🧠 **Memory Usage**: used vs total  
+- 💾 **Disk Usage**: per mounted drive  
+- ⚡ **Top 5 Processes by CPU** (with PID, name, CPU%, and RSS)  
+- 🔄 Refreshes **every 2 seconds**, clears screen in place  
+- ⌨️ Press **`q`** to quit  
 
-Build & Run
+---
+
+## 🛠 Requirements
+- Java **17+**  
+- Maven **3.8+**  
+
+---
+
+## 🚀 Build & Run
+
 ```bash
+# Clone repository
+git clone https://github.com/yourusername/system-resource-monitor.git
+cd system-resource-monitor
+
+# Build
 mvn clean install
+
+# Run
 mvn exec:java -Dexec.mainClass="com.monitor.Main"
+
 ```
 
 Example Output
